@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon clone project</title>
+    <title>Amazon Clone - Enhanced</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -24,10 +21,25 @@
           <i class="fa-solid fa-bars"></i>
         </div>
 
+        <div class="nav-address border">
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="add-details">
+            <p class="add-first">Deliver to</p>
+            <p class="add-second">
+              <i class="fa-solid fa-location-dot"></i> India
+            </p>
+          </div>
+        </div>
+
         <div class="nav-search-container">
           <div class="nav-search">
             <select class="search-select">
               <option>All</option>
+              <option>Deals</option>
+              <option>Amazon Devices</option>
+              <option>Electronics</option>
             </select>
             <input placeholder="Search Amazon" class="search-input" />
             <div class="search-icon">
@@ -37,17 +49,30 @@
         </div>
 
         <div class="nav-right">
+          <div class="language-selector border">
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2czExNC42IDI1NiAyNTYgMjU2czI1Ni0xMTQuNiAyNTYtMjU2UzM5Ny40IDAgMjU2IDB6TTQwIDI1NmMwLTEzLjIgMi42LTI1LjcgNi45LTM3LjFMMTk0LjIgMzQ1LjVDMTE1LjMgMzI2LjIgNDAgMjk2LjYgNDAgMjU2ek0yNTYgNDhjMzcuMyAwIDcxLjcgMTIuOSA5OS41IDM0LjRMMjMxLjYgMjA2LjRjLTcuNC0xNC42LTEyLjEtMzAuOC0xMi4xLTQ4IDAtNDUuOSAzNS4xLTgzLjEgNzkuOC04Ny45VjQ4ek0zMzMgMTA5LjVjNDQuNyA0LjggNzkuOCA0MiA3OS44IDg3LjljMCAxNy4yLTQuNyAzMy40LTEyLjEgNDhMMzA2IDI2Mi40YzI3LjQtMjEuMSA0NS41LTU0LjMgNDUuNS05MC45IDAtMTQuMy0yLjktMjgtOC4xLTQwLjhMMzMzIDEwOS41ek0xODcuMiAzMTEuNkw3MC42IDE0Ni4xYzE1LjUtMjAuMiAzOC4xLTM1LjIgNjMuOS00Mi40djQ0LjNjLTM0LjcgOC45LTYwLjYgNDAuNC02MC42IDc4IDAgMTguNCA2LjIgMzUuNSAxNi40IDQ5LjFMMTg3LjIgMzExLjZ6TTI1NiA0NjRjLTM3LjMgMC03MS43LTEyLjktOTkuNS0zNC40bDEyMy45LTEyNGM3LjQgMTQuNiAxMi4xIDMwLjggMTIuMSA0OCAwIDQ1LjktMzUuMSA4My4xLTc5LjggODcuOXY0OC4zSDI1NnptLTc3LTk0LjVjLTQ0LjctNC44LTc5LjgtNDItNzkuOC04Ny45IDAtMTcuMiA0LjctMzMuNCAxMi4xLTQ4bC0xMjQtMTI0LjFDNjAuOSAxNjkuMSA0OCAyMDkuOSA0OCAyNTZjMCA1OS4yIDMwLjMgMTExLjQgNzYuMyAxNDIuMWwxMDcuMy0xMDcuM3YtNDQuM3pNMzM2IDM2Ni44VjMxMWwtODYuMS04Ni4xYzEwLjItMTMuNiAxNi40LTMwLjcgMTYuNC00OS4xIDAtMzcuNi0yNS45LTY5LjEtNjAuNi03OFYxMDMuN2MyNS44IDcuMiA0OC40IDIyLjIgNjMuOSA0Mi40bC0xMTYuNiAxNjUuNUMxNzAuMiAzMjEuMSAxOTIgMzQ0LjkgMjE5LjIgMzU5LjFsMTE2LjgtMTE2Ljh2NTUuOGMwIDQxLjggMjEuNyA3OC41IDU0LjUgOTkuOEwzMzYgNDE0LjF2LTQ3LjN6IiBjbGFzcz0iIj48L3BhdGg+PC9zdmc+"
+              alt="US Flag"
+            />
+            <span>EN</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+
           <div class="sign-in border">
-            <p><span>Hello,sign in</span></p>
-            <p class="nav-second">Account & Links</p>
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
           </div>
 
           <div class="sign-return border">
             <p><span>Returns</span></p>
             <p class="nav-second">& Orders</p>
           </div>
+
           <div class="nav-cart border">
-            <i class="fa-solid fa-cart-plus"></i>
+            <div class="cart-icon-container">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-count">0</span>
+            </div>
             <span class="cart-text">Cart</span>
           </div>
         </div>
@@ -62,19 +87,88 @@
           <p>Today's Deals</p>
           <p>Customer Service</p>
           <p>Registry</p>
-          <p>Gift cards</p>
+          <p>Gift Cards</p>
           <p>Sell</p>
         </div>
-        <div class="panel-deals">Shops deals in Electronic</div>
+        <div class="panel-deals">Shop deals in Electronics</div>
       </div>
     </header>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-header">
+        <h3>Hello, Sign In</h3>
+        <i class="fa-solid fa-xmark close-menu"></i>
+      </div>
+      <div class="mobile-menu-content">
+        <div class="mobile-menu-section">
+          <h4>Trending</h4>
+          <a href="#">Best Sellers</a>
+          <a href="#">New Releases</a>
+          <a href="#">Movers and Shakers</a>
+        </div>
+        <div class="mobile-menu-section">
+          <h4>Digital Content And Devices</h4>
+          <a href="#">Amazon Music</a>
+          <a href="#">Echo & Alexa</a>
+          <a href="#">Fire TV</a>
+        </div>
+        <div class="mobile-menu-section">
+          <h4>Shop By Department</h4>
+          <a href="#">Electronics</a>
+          <a href="#">Computers</a>
+          <a href="#">Smart Home</a>
+        </div>
+        <div class="mobile-menu-section">
+          <h4>Programs & Features</h4>
+          <a href="#">Gift Cards</a>
+          <a href="#">#FoundItOnAmazon</a>
+          <a href="#">Amazon Live</a>
+        </div>
+        <div class="mobile-menu-section">
+          <h4>Help & Settings</h4>
+          <a href="#">Your Account</a>
+          <a href="#">Customer Service</a>
+          <a href="#">Sign out</a>
+        </div>
+      </div>
+    </div>
+
     <div class="hero-section">
+      <div class="hero-slider">
+        <div class="slide active">
+          <div class="slide-content">
+            <h2>Deals in PCs</h2>
+            <p>Shop our latest selection</p>
+            <button>Shop now</button>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <h2>Gaming accessories</h2>
+            <p>Explore keyboards, mice, and more</p>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <h2>Player's paradise</h2>
+            <p>Shop now for the latest releases</p>
+            <button>Shop video games</button>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <span class="slider-dot active"></span>
+        <span class="slider-dot"></span>
+        <span class="slider-dot"></span>
+      </div>
+
       <div class="hero-message">
         <p>
-          You are on amazon.com.You can also shop on Amazon India for millions
-          of products with a fast and local delivery.
-          <a>Click here to go amazon.com</a>
+          You are on amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.
+          <a href="#">Click here to go to amazon.in</a>
         </p>
       </div>
     </div>
@@ -82,12 +176,14 @@
     <div class="shop-section">
       <div class="box">
         <div class="box-content">
-          <h2>Clothes</h2>
+          <h2>Deals on fashion</h2>
           <div
             class="box-image"
-            style="background-image: url('box1_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>Shop now</p>
         </div>
       </div>
       <div class="box">
@@ -95,123 +191,252 @@
           <h2>Health & Personal Care</h2>
           <div
             class="box-image"
-            style="background-image: url('box2_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>See more</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>Furniture</h2>
+          <h2>Home refresh ideas</h2>
           <div
             class="box-image"
-            style="background-image: url('box3_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>Shop kitchen upgrades</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>Electronic Devices</h2>
+          <h2>Electronics</h2>
           <div
             class="box-image"
-            style="background-image: url('box4_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>See more</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>Beauty Pics</h2>
+          <h2>Beauty picks</h2>
           <div
             class="box-image"
-            style="background-image: url('box5_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>Shop now</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>Pet Care</h2>
+          <h2>Pet supplies</h2>
           <div
             class="box-image"
-            style="background-image: url('box6_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>See more</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>New Arrival And Toys</h2>
+          <h2>New arrivals in Toys</h2>
           <div
             class="box-image"
-            style="background-image: url('box7_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1555252333-9f8e92e65df9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>Shop now</p>
         </div>
       </div>
       <div class="box">
         <div class="box-content">
-          <h2>Discover Fashion Trend</h2>
+          <h2>Discover fashion trends</h2>
           <div
             class="box-image"
-            style="background-image: url('box8_image.jpg')"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+            "
           ></div>
-          <p>See more...</p>
+          <p>See more</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Deals Section -->
+    <div class="deals-section">
+      <div class="deals-header">
+        <h2>Today's Deals</h2>
+        <a href="#">See all deals</a>
+      </div>
+      <div class="deals-container">
+        <div class="deal-item">
+          <div
+            class="deal-image"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+            "
+          ></div>
+          <div class="deal-discount">-25%</div>
+          <div class="deal-details">
+            <p class="deal-title">Wireless Earbuds</p>
+            <p class="deal-price">
+              <span class="current-price">$59.99</span>
+              <span class="original-price">$79.99</span>
+            </p>
+          </div>
+        </div>
+        <div class="deal-item">
+          <div
+            class="deal-image"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+            "
+          ></div>
+          <div class="deal-discount">-30%</div>
+          <div class="deal-details">
+            <p class="deal-title">Smart Watch</p>
+            <p class="deal-price">
+              <span class="current-price">$139.99</span>
+              <span class="original-price">$199.99</span>
+            </p>
+          </div>
+        </div>
+        <div class="deal-item">
+          <div
+            class="deal-image"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+            "
+          ></div>
+          <div class="deal-discount">-15%</div>
+          <div class="deal-details">
+            <p class="deal-title">Laptop Bag</p>
+            <p class="deal-price">
+              <span class="current-price">$42.99</span>
+              <span class="original-price">$49.99</span>
+            </p>
+          </div>
+        </div>
+        <div class="deal-item">
+          <div
+            class="deal-image"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+            "
+          ></div>
+          <div class="deal-discount">-40%</div>
+          <div class="deal-details">
+            <p class="deal-title">Running Shoes</p>
+            <p class="deal-price">
+              <span class="current-price">$59.99</span>
+              <span class="original-price">$99.99</span>
+            </p>
+          </div>
+        </div>
+        <div class="deal-item">
+          <div
+            class="deal-image"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+            "
+          ></div>
+          <div class="deal-discount">-20%</div>
+          <div class="deal-details">
+            <p class="deal-title">Coffee Maker</p>
+            <p class="deal-price">
+              <span class="current-price">$79.99</span>
+              <span class="original-price">$99.99</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <footer>
-      <div class="foot-panel1">Back To Top</div>
+      <div class="foot-panel1">
+        <a href="#">Back to top</a>
+      </div>
       <div class="foot-panel2">
         <ul>
-          <p>Get to know us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Amazon Sciences</a>
-        </ul>
-        <ul>
-          <p>Connets With Us</p>
-          <a>Facebook</a>
-          <a>Twitter</a>
-          <a>Instsgram</a>
+          <p>Get to Know Us</p>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">About Amazon</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Amazon Devices</a>
+          <a href="#">Amazon Science</a>
         </ul>
         <ul>
           <p>Make Money with Us</p>
-          <a>Sell on Amazon</a>
-          <a>Sell under Amazon Accelerator</a>
-          <a>Protect and Build Your Brand</a>
-          <a>Become an Affiliate</a>
-          <a>Fulfilment by Amazon</a>
-          <a>Advertise Your Products</a>
-          <a>Amazon Pay on Merchants</a>
+          <a href="#">Sell products on Amazon</a>
+          <a href="#">Sell on Amazon Business</a>
+          <a href="#">Sell apps on Amazon</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Self-Publish with Us</a>
+          <a href="#">Host an Amazon Hub</a>
         </ul>
         <ul>
-          <a>Let Us Help You</a>
-          <a>COVID-19 and Amazon</a>
-          <a>Your Account</a>
-          <a> Returns Centre</a>
-          <a>Recalls and Product Safety Alerts</a>
-          <a>00% Purchase Protection</a>
-          <a>Amazon App Download</a>
-          <a>Help</a>
+          <p>Amazon Payment Products</p>
+          <a href="#">Amazon Business Card</a>
+          <a href="#">Shop with Points</a>
+          <a href="#">Reload Your Balance</a>
+          <a href="#">Amazon Currency Converter</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a href="#">Amazon and COVID-19</a>
+          <a href="#">Your Account</a>
+          <a href="#">Your Orders</a>
+          <a href="#">Shipping Rates & Policies</a>
+          <a href="#">Returns & Replacements</a>
+          <a href="#">Manage Your Content and Devices</a>
+          <a href="#">Amazon Assistant</a>
+          <a href="#">Help</a>
         </ul>
       </div>
+
       <div class="foot-panel3">
         <div class="logo"></div>
+        <div class="language-selector">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="currency-selector">
+          <span>$ USD - U.S. Dollar</span>
+        </div>
+        <div class="country-selector">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2czExNC42IDI1NiAyNTYgMjU2czI1Ni0xMTQuNiAyNTYtMjU2UzM5Ny40IDAgMjU2IDB6TTQwIDI1NmMwLTEzLjIgMi42LTI1LjcgNi45LTM3LjFMMTk0LjIgMzQ1LjVDMTE1LjMgMzI2LjIgNDAgMjk2LjYgNDAgMjU2ek0yNTYgNDhjMzcuMyAwIDcxLjcgMTIuOSA5OS41IDM0LjRMMjMxLjYgMjA2LjRjLTcuNC0xNC42LTEyLjEtMzAuOC0xMi4xLTQ4IDAtNDUuOSAzNS4xLTgzLjEgNzkuOC04Ny45VjQ4ek0zMzMgMTA5LjVjNDQuNyA0LjggNzkuOCA0MiA3OS44IDg3LjljMCAxNy4yLTQuNyAzMy40LTEyLjEgNDhMMzA2IDI2Mi40YzI3LjQtMjEuMSA0NS41LTU0LjMgNDUuNS05MC45IDAtMTQuMy0yLjktMjgtOC4xLTQwLjhMMzMzIDEwOS41ek0xODcuMiAzMTEuNkw3MC42IDE0Ni4xYzE1LjUtMjAuMiAzOC4xLTM1LjIgNjMuOS00Mi40djQ0LjNjLTM0LjcgOC45LTYwLjYgNDAuNC02MC42IDc4IDAgMTguNCA2LjIgMzUuNSAxNi40IDQ5LjFMMTg3LjIgMzExLjZ6TTI1NiA0NjRjLTM3LjMgMC03MS43LTEyLjktOTkuNS0zNC40bDEyMy45LTEyNGM3LjQgMTQuNiAxMi4xIDMwLjggMTIuMSA0OCAwIDQ1LjktMzUuMSA4My4xLTc5LjggODcuOXY0OC4zSDI1NnptLTc3LTk0LjVjLTQ0LjctNC44LTc5LjgtNDItNzkuOC04Ny45IDAtMTcuMiA0LjctMzMuNCAxMi4xLTQ4bC0xMjQtMTI0LjFDNjAuOSAxNjkuMSA0OCAyMDkuOSA0OCAyNTZjMCA1OS4yIDMwLjMgMTExLjQgNzYuMyAxNDIuMWwxMDcuMy0xMDcuM3YtNDQuM3pNMzM2IDM2Ni44VjMxMWwtODYuMS04Ni4xYzEwLjItMTMuNiAxNi40LTMwLjcgMTYuNC00OS4xIDAtMzcuNi0yNS45LTY5LjEtNjAuNi03OFYxMDMuN2MyNS44IDcuMiA0OC40IDIyLjIgNjMuOSA0Mi40bC0xMTYuNiAxNjUuNUMxNzAuMiAzMjEuMSAxOTIgMzQ0LjkgMjE5LjIgMzU5LjFsMTE2LjgtMTE2Ljh2NTUuOGMwIDQxLjggMjEuNyA3OC41IDU0LjUgOTkuOEwzMzYgNDE0LjF2LTQ3LjN6IiBjbGFzcz0iIj48L3BhdGg+PC9zdmc+"
+            alt="US Flag"
+          />
+          <span>United States</span>
+        </div>
       </div>
+
       <div class="foot-panel4">
         <div class="pages">
-          <a>Condition of Use</a>
-          <a>Privacy Notice</a>
-          <a>Your Ads Privacy Choices</a>
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Your Ads Privacy Choices</a>
         </div>
         <div class="copyright">
           © 1996-2024, Amazon.com, Inc. or its affiliates
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
